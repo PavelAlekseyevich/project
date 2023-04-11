@@ -1,0 +1,160 @@
+.wrapper {
+  color: rgb(255, 0, 0);
+} /*# sourceMappingURL=style.css.map */
+.header {
+  width: auto;
+  margin: auto 15px;
+  height: 60px;
+}
+.header__conteiner {
+  width: 1170px;
+  height: 60px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header__logo {
+  width: 200px;
+}
+.header__nav {
+  width: 500px;
+}
+.header__nav-conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.header__nav-list {
+  margin-left: 15px;
+}
+.header__nav-item {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+.header__search {
+  width: 300px;
+}
+.header__search-conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header__search-list {
+  margin-left: 15px;
+}
+.abc {
+  outline: none;
+  border-radius: 5px;
+}
+.main {
+  width: auto;
+  margin: auto 15px;
+  height: 600px;
+  background-color: white;
+}
+.one {
+  width: auto;
+  margin: auto 15px;
+}
+.one__main_conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.one__main_menu {
+  width: 500px;
+  height: 400px;
+}
+.one__main_menu-list {
+  width: 300px;
+}
+.one__main_menu-title {
+  color: red;
+}
+.one__main_menu-conteiner {
+  display: flex;
+  flex-direction: column;
+}
+.place {
+  background-color: aqua;
+}
+.one__main_menu-list {
+  height: auto;
+  margin: 0px 0px;
+}
+.input {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.one__main_menu-unput-item {
+  background-color: rgba(36, 124, 192, 1);
+  color: white;
+  height: 50px;
+  width: 110px;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: medium;
+  border: none;
+}
+.one__main_menu-coust {
+  margin-left: 10px;
+}
+.sale {
+  margin-top: 8px;
+}
+.one__footer_conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 230px;
+}
+.one__footer_conteiner-list {
+  margin-left: 15px;
+}
+.music {
+  width: auto;
+  margin: auto 15px;
+  background-color: white;
+  height: 240px;
+}
+.music_conteiner {
+  display: flex;
+  justify-content: center;
+}
+.music_blok {
+  display: flex;
+  width: 500px;
+  margin-left: 30px;
+}
+.music_blok-list {
+  margin-left: 10px;
+}
+.music_blok-coust {
+  display: flex;
+}
+.music_blok-coust-item {
+  margin-left: 10px;
+}
+.music_blok-coust-item sale {
+  margin-top: 15px;
+}
+.music_blok-coust-text {
+  margin-top: 15px;
+  color: rgb(142, 139, 139);
+}
+.music_blok-text-item {
+  color: rgb(142, 139, 139);
+  font-size: medium;
+}
+.video {
+  width: auto;
+}
+.video_conteiner {
+  display: flex;
+}
