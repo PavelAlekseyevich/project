@@ -153,8 +153,75 @@
   font-size: medium;
 }
 .video {
-  width: auto;
+  margin-top: 100px;
+  width: 100%;
 }
 .video_conteiner {
   display: flex;
+  justify-content: center;
+}
+.video_blok {
+  width: 500px;
+  height: 200px;
+  position: relative;
+  text-align: left;
+  color: white;
+  margin-left: 30px;
+}
+.video_blok-img-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.video_blok-img-item2 {
+  position: absolute;
+  margin-left: 250px;
+
+  width: 200px;
+  height: 200px;
+}
+.video_blok-text {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+}
+.comments {
+  position: relative;
+  color: rgb(255, 255, 255);
+  margin: 30px 15px;
+}
+.women {
+  margin-top: 100px;
+  width: 100%;
+}
+
+.women_conteiner {
+  display: flex;
+  justify-content: center;
+}
+
+.women_blok {
+  width: 500px;
+  height: 500px;
+}
+.women_blok-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  justify-content: center;
+}
+.women_blok-img-item {
+  position: absolute;
+  width: 70%;
+  height: 70%;
+}
+.imgwomen {
+  margin-left: 150px;
+}
+.women_blok-list {
+  list-style: none;
+}
+.women_blok-list-item {
+  list-style-image: url(/images/com.png);
+  margin: 20px 10px;
 }
